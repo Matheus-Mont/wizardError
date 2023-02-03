@@ -1,0 +1,74 @@
+// .chakra-button.magicButton[data-loading] {
+// 	transition: background 10s;
+// 	background-position: 371px;
+// }
+
+:root{
+	//Cores primárias
+
+    --primary-one: #354a5f;
+
+    --primary-test: #354a5f;
+
+    --primary-two: #0a6ed1;
+
+    --primary-two-dark: #0854A0;
+
+    --primary-three: #ffffff;
+
+    --primary-four: #edeff0;
+
+    --primary-five: #89919a;
+
+    --primary-six: #32363a;
+
+    --primary-seven: #6a6d70;
+
+
+
+    //Cores semanticas
+
+    --negative: #bb0000;
+
+    --critical: #e9730c;
+
+    --positive: #107e3e;
+
+    --neutral: #6a6d70;
+
+    --info: #0a6ed1;
+
+
+
+    //Cores de fundo
+
+    --negative-bg: #ffebeb;
+
+    --critical-bg: #fef7f1;
+
+    --positive-bg: #f1fdf6;
+
+    --neutral-bg: #f4f4f4;
+
+    --info-bg: #f5faff;
+
+
+
+    //Cores indicativas
+
+    --ui-indicator-one: #880000;
+
+    --ui-indicator-two: #bb0000;
+
+    --ui-indicator-three: #e9730c;
+
+    --ui-indicator-four: #107e3e;
+
+    --ui-indicator-five: #0a6ed1;
+
+    --ui-indicator-six: #0f828f;
+
+    --ui-indicator-seven: #925ace;
+
+    --ui-indicator-eight: #c0399f;
+}

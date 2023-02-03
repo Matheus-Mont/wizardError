@@ -1,0 +1,16 @@
+{
+	"name": "vercel",
+	"workspaceFolder": "/app",
+	"workspaceMount": "source=vercel-${localEnv:USER},target=/app,type=volume",
+	"postCreateCommand": "rm -rf ..?* .[!.]* * && git clone -b staging *-GITHUB-LINK-* ./",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
+	"extensions": [
+		"ms-azuretools.vscode-docker",
+		"redhat.vscode-yaml",
+		"robbowen.synthwave-vscode",
+		"pkief.material-icon-theme"
+	],
+}
