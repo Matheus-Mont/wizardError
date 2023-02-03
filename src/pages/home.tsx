@@ -1,9 +1,12 @@
+import { ThemeProvider } from "@ui5/webcomponents-react";
 
-export default function Scenarios() {
+export default function Home() {
 
 	return (
-		<div>
-			Oi
-		</div>
+		<ThemeProvider>
+			<div>
+				Oi
+			</div>
+		</ThemeProvider>
 	);
 }

@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
 
 import 'styles/scss/global.scss';
+import { ThemeProvider } from '@ui5/webcomponents-react';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	const router = useRouter();
@@ -15,14 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 		'/register_successful',
 	];
 
-	if (authPages.includes(router.pathname)) {
-		return (
-				<Component {...pageProps} />
-		);
-	}
-
 	return (
+		<ThemeProvider>
 			<Component {...pageProps} />
+		</ThemeProvider>
 	);
 }
 
