@@ -2,7 +2,7 @@
 	"name": "vercel",
 	"workspaceFolder": "/app",
 	"workspaceMount": "source=vercel-${localEnv:USER},target=/app,type=volume",
-	"postCreateCommand": "rm -rf ..?* .[!.]* * && git clone -b staging *-GITHUB-LINK-* ./",
+	"postCreateCommand": "rm -rf ..?* .[!.]* * && git clone -b main https://github.com/Matheus-Mont/wizardError ./",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
